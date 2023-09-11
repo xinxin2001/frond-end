@@ -1,0 +1,29 @@
+body{
+    font: 16px/28px 'Microsoft YaHei';  
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+text-decoration: none;
+}
+
+div {
+    text-align: center;
+    font-size: small;
+    color: rgb(178, 182, 185);
+}
+
+p {
+    text-indent: 2em;
+}
+
+img{
+    text-align: center;
+}
+
+span {
+color: rgb(185, 190, 190);
+}
