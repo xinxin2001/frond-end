@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动练习</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #f3f5f2;
+        }
+
+li{
+    list-style: none;
+}
+        a {
+            text-decoration: none;
+        }
+
+ul {
+    width: 1226px;
+    height: 285px;
+    margin: 100px auto;
+}
+
+       ul  li{
+            width: 296px;
+            height: 285px;
+            float: left;
+          margin-right: 14px;
+        text-align: center;
+        }
+
+      ul li  img{
+            width: 100%;
+        }
+ul li h3 {
+color: black;
+}
+
+ul li p {
+    color: rgb(175, 175, 175);
+}
+
+li:hover {
+    box-shadow: 5px  5px  10px  1px rgba(0,0,0,0.2)  ;
+}
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#"><img src="../images/6-1.png">
+            <h3>小米CC9</h3>
+            <p>深蓝星球</p></a>
+        </li>
+        <li><a href="#"><img src="../images/6-2.png">
+            <h3>Remin Node7 系列</h3>
+            <P>镜花水月</P></a>
+        </li>
+        <li><a href="#"><img src="../images/6-3.png" alt="">
+            <h3>
+                黑域游戏手机2Pro
+            </h3>
+            <p>指尖主宰发布会</p></a>
+        </li>
+        <!-- 四个盒子其中最后一个不需要外边距，可以清除
+        写在行内，权重比较大
+        -->
+        <li style="margin-right:0;"><a href="#" ><img src="../images/6-4.png" alt="">
+            <h3>小米手环</h3>
+            <p>
+                改变从今开始
+            </p></a>
+        </li>
+    </ul>
+</body>
+
+</html>
