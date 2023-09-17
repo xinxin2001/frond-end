@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两侧固定广告</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+ .w {
+     width: 1000px;
+     height: 1300px;
+     margin: 0 auto;
+     background-color: pink;
+ }
+
+        img {
+            width: 170px;
+            height: 400px;
+        }
+
+        .left {
+            position: fixed;
+            top: 140px;
+            left: 0;
+        }
+
+        .right {
+            position: fixed;
+            top: 140px;
+            right: 0;
+        }
+        
+
+        .midder img{
+            width: 75px;
+            height: 100px; 
+        }
+
+        .midder {
+            position: fixed;
+            left: 50%;
+            margin-left: 500px;
+           bottom: 100px;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+   
+    <div class="w">
+        版心
+    </div>
+    <div class="midder"><img src="../images/hui.png" alt=""></div>
+  
+    <div class="fixed">
+        <div class="left">
+            <img src="../images/guanggao.png" alt="">
+        </div>
+        <div class="right"><img src="../images/guanggao.png" alt=""></div>
+         </div>
+</body>
+
+</html>
